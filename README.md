@@ -68,7 +68,7 @@ Visit [MythBytes](https://mythbytes.com) for a live preview.
    ```
    NEXTAUTH_SECRET=your-secret-key
    NEXTAUTH_URL=http://localhost:3000
-   ADMIN_EMAIL=your-admin-email
+   ADMIN_USERNAME=your-admin-username
    ADMIN_PASSWORD=your-admin-password
    GITHUB_TOKEN=github-token
    GITHUB_OWNER=github-owner
@@ -80,6 +80,9 @@ Visit [MythBytes](https://mythbytes.com) for a live preview.
     ```bash
     npm run dev
     ```
+5. Access the application at `http://localhost:3000`
+
+6. Access the admin dashboard at `http://localhost:3000/admin`
 
 ## Project Structure
 
