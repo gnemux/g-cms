@@ -1,0 +1,59 @@
+{
+  "name": "g-cms",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=18.12.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "clean": "rimraf .contentlayer && rimraf .next",
+    "clean-mdx": "node scripts/clean-mdx.mjs"
+  },
+  "dependencies": {
+    "@emotion/is-prop-valid": "^1.3.1",
+    "@mdx-js/loader": "^3.1.0",
+    "@mdx-js/react": "^3.1.0",
+    "@monaco-editor/react": "^4.6.0",
+    "@next/mdx": "^15.0.2",
+    "@octokit/rest": "^21.0.2",
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/mdx": "^2.0.13",
+    "@uiw/react-md-editor": "^4.0.4",
+    "blog-next": "file:",
+    "clsx": "^2.1.1",
+    "contentlayer": "^0.3.4",
+    "date-fns": "^3.3.1",
+    "esprima": "^4.0.1",
+    "framer-motion": "^11.11.11",
+    "gray-matter": "^4.0.3",
+    "lucide-react": "^0.454.0",
+    "next": "13.5.7",
+    "next-auth": "^4.24.5",
+    "next-contentlayer": "^0.3.4",
+    "next-mdx-remote": "^4.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^9.0.1",
+    "reading-time": "^1.5.0",
+    "remark-gfm": "^4.0.0",
+    "supports-color": "^9.4.0",
+    "tailwind-merge": "^2.5.4"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.8.1",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "autoprefixer": "^10.4.20",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.4.47",
+    "rimraf": "^6.0.1",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.3.3"
+  }
+}

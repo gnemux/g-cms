@@ -1,0 +1,22 @@
+# Build Settings
+[build]
+  # Specify build command, using npm run build to build Next.js project
+  command = "npm run build"
+  # Set publish directory to .next directory
+  publish = ".next"
+
+# Add cache configuration
+[[plugins]]
+  # Use Netlify official Next.js plugin to optimize Next.js app deployment
+  package = "@netlify/plugin-nextjs"
+
+# Add cache directory
+[build.processing]
+  skip_processing = true
+
+# Add environment variable logging
+[functions]
+  node_bundler = "esbuild"
+  # Enable detailed logging
+  [functions.log]
+    level = "debug"
