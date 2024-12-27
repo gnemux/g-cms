@@ -168,7 +168,3 @@ Visit [MythBytes](https://mythbytes.com) for a live preview.
 ## License
 
 Apache License 2.0
-
---- 
-
-This format provides clear sections, detailed instructions, and a professional tone suitable for GitHub. Let me know if you'd like any further adjustments!
